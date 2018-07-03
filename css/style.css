@@ -1,0 +1,154 @@
+*{
+
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+       color: #737373;
+}
+img{
+	max-width: 100%;
+	display:block;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.border{
+    padding: 30px 0;
+    border-bottom: 1px solid #eae4e4;
+}
+
+.logo{
+	width: 20%;
+    float: left;
+}
+.logo img{}
+.social-icon{
+	width: 80%;
+    float: left;
+}
+.social-icon ul{
+	 text-align: right;
+}
+.social-icon ul li{
+	list-style: none;
+    display: inline-block;
+}
+.social-icon ul li a{}
+.social-icon ul li:first-child a{
+	position: relative;
+    display: block;
+}
+.social-icon ul li:first-child a img:last-child{
+	position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+
+nav{
+    padding: 25px 0;
+    overflow: hidden;
+}
+nav ul{}
+nav ul li{
+    float: left;
+    list-style: none;
+}
+nav ul li a{
+	display: block;
+    padding: 15px;
+    padding-left: 0;
+    color: #727272;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+nav ul li a:hover{}
+
+.banner{
+	    background: url(../images/bannerbg.jpg);
+}
+
+
+
+.banner img{
+	transform: translatey(60px);
+    margin: 0 auto;
+}
+
+
+.About-us{
+    margin: 100px;
+    text-align: center;
+}
+.About-us p{}
+.About-us a{
+	text-transform: uppercase;
+    background: #2dcc70;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+.get-to-know{
+	background-color: #e5e5e5;
+    padding: 50px 0;
+}
+.get-to-know-img{
+	width: 50%;
+    float: left;
+    padding: 15px;
+}
+.get-to-know-img img{
+   width: 100%;
+}
+
+article{
+	 width: 50%;
+    float: left;
+    padding: 15px;
+}
+article h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+article p{
+	font-size: 17px;
+    margin-top: 25px;
+}
+
+.footer{
+    background-color: black;
+}
+.first-part{
+    width: 50%;
+    float: left;
+}
+.first-part h4{
+    padding: 30px 0;
+    color: #e5e5e5;
+} 
+.second-part{
+	width: 50%;
+    float: left;
+    text-align: center;
+}
+.second-part a{
+	margin-top: 20px;
+    text-decoration: none;
+    color: #e5e5e5;
+    background: #2dcc70;
+    display: inline-block;
+    padding: 10px;
+}
+
